@@ -28,7 +28,7 @@ function App() {
   const fetchData = async (city) => {
 
     try {
-    const APIKEY = '7c1240b673c26f0155144163ad08b898'
+    const APIKEY = ''
     //install axios to allow API request 
     const result = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKEY}&units=imperial`)
     await setAllData({
